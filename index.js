@@ -5,7 +5,7 @@ const ownerID = `350772260031954944`;
 const prefix = `t!` ;
 var comandos = new Discord.Collection();
 
-client.login('NDgxMjM0NjQ4NjI2NjI2NTgw.Dl2m9A.oTuPbnmS0MUURSWJxG8sHHuaI8s');
+client.login(process.env.BOT_TOKEN);
 
 client.on("ready", () => {
     client.user.setGame(`| The Toxic |`, 'https://twitch.tv/ZiraMC')
